@@ -18,7 +18,7 @@ And during the update, the agents are trained by vanilla QMIX without the auxili
 
 <img src="so_many_baneling.png" alt="So_many_baneling" width="500">
 
-So_many_baneling is a [SMAC](https://github.com/oxwhirl/smac) task where 7 Zealots fight with 32 Banelings. The the key to win this task is that the Zealots should cooperatively spread out around the map far from each other so that the Banelings' damage is distributed as thinly as possible. The individualized strategy perfectly matches the motivation of EOI. However, the original so_many_baneling is too easy. We set reward_sparse=True, sight_range=4.0, move_amount=0.3, and simplify the observed information. The modified version (see starcraft2.py) is much more difficult, and vanilla QMIX is hard to explore the winning experiences.
+So_many_baneling is a [SMAC](https://github.com/oxwhirl/smac) task where 7 Zealots fight with 32 Banelings. The the key to win this task is that the Zealots should cooperatively spread out around the map far from each other so that the Banelings' damage is distributed as thinly as possible. The individualized strategy perfectly matches the motivation of EOI. However, the original so_many_baneling is too easy. We set reward_sparse=True, sight_range=4.0, shoot_range=0.0, move_amount=0.3, and simplify the observed information. The modified version (see starcraft2.py) is much more difficult, and vanilla QMIX is hard to explore the winning experiences.
 
 ## Performance 
 
