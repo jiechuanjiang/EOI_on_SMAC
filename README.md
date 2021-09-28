@@ -19,4 +19,15 @@ So_many_baneling is a [SMAC](https://github.com/oxwhirl/smac) task where 7 Zealo
 ## Performance 
 
 
-## Citification 
+## Citation 
+If you are using the codes, please cite our paper.
+
+    @inproceedings{jiang2021emergence,
+      title={The Emergence of Individuality},
+      author={Jiang, Jiechuan and Lu, Zongqing},
+      booktitle={International Conference on Machine Learning},
+      pages={4992--5001},
+      year={2021},
+      organization={PMLR}
+    }
+
