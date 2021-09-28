@@ -22,6 +22,7 @@ So_many_baneling is a [SMAC](https://github.com/oxwhirl/smac) task where 7 Zealo
 
 ## Performance 
 
+<img src="win_rate.png" alt="win_rate" width="500">
 
 ## Citation 
 If you are using the codes, please cite our paper.
