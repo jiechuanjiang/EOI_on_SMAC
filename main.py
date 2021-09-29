@@ -54,10 +54,7 @@ while i_timestep<n_timestep:
 			avail_actions_ind = np.nonzero(mask[i])[0]
 			a = np.random.choice(avail_actions_ind)
 		else:
-			if epi%10 < n_try:
-				a = np.argmax(outs[2*i][0])
-			else:
-				a = np.argmax(outs[2*i+1][0])
+			a = np.argmax(outs[2*i][0]) if epi%10 < n_try else np.argmax(outs[2*i+1][0])
 		action.append(to_categorical(a,n_actions))
 		acts.append(a)
 
