@@ -1,6 +1,6 @@
 # EOI_on_SMAC
 
-This is an improved version of [EOI](http://proceedings.mlr.press/v139/jiang21g/jiang21g.pdf).
+This is an improved version of [EOI](http://proceedings.mlr.press/v139/jiang21g/jiang21g.pdf) on sparse-reward so_many_baneling (*The Emergence of Individuality*). The codebase for more general SMAC tasks is contained in this [repo](https://github.com/jiechuanjiang/eoi_pymarl).
 
 ## EOI
 
